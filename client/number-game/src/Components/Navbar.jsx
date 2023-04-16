@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <Box border="1px solid #fff" h="60px">
+    <Box h="60px" p='10px'>
       <Flex fontWeight="600" gap="40px" align="center">
         <Text fontSize="25px">Number Game |</Text>
         <Link to="/">
